@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nama = prompt("Masukan nama:")
+        document.write(nama);
+        document.write("<br>");
+        document.write("<br>");
+
+        //challange bintang
+        var x = prompt("masukan angka untuk pengulangan bintang:");
+        var y ='';
+        for(let i = x; i >= 0; i--) {
+            for( let j = 0; j <= i; j++){
+            y += '*';
+        }
+        y += "<br>";
+    }
+    document.write(y);
+    document.write("<br>");
+
+        //challange angka
+        var a =prompt("masuakan angka untuk pengulangan angka:");
+        var b = '';
+
+        for (let p = 1; p <= a; p++){
+            for (let q = 1; q <= p; q++){
+                b += q;
+            }
+            b += '<br></=>';
+        }
+        document.write(b);
+        
+    </script>
+</body>
+</html>
